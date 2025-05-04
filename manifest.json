@@ -1,0 +1,18 @@
+{
+  "category": "utility",
+  "demo": true,
+  "features": [
+    "Enable alarm",
+    "Send a message",
+    "Send a message",
+    "Send a notification"
+  ],
+  "icon": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
+  "name": "Playground Python",
+  "sdk": {
+    "name": "python",
+    "version": "1.0.15"
+  },
+  "softwareVersion": null,
+  "website": null
+}
