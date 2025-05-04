@@ -38,9 +38,10 @@ extension = (
     .set_demo(True)
     .set_features([
         'Enable alarm',
-        'Send a message',
-        'Send a message',
-        'Send a notification'
+        'Receive random dice result as message',
+        'Receive random dice result as notification',
+        'Receive random image',
+        'Receive random video'
     ])
     .set_function_schemas([
         {
