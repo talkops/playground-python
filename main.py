@@ -23,7 +23,7 @@ def receive_random_dice_notification():
 
 def receive_random_image():
     extension.send_medias([
-        Image('https://picsum.photos/640/480')
+        Image(f'https://picsum.photos/seed/{random.randint(1, 100)}/640/480')
     ])
     return 'Done.'
 
@@ -41,7 +41,7 @@ def receive_random_video():
 extension = (
     Extension()
     .set_name('Playground Python')
-    .set_icon('https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png')
+    .set_icon('https://talkops.app/images/extensions/playground-python.png')
     .set_category('utility')
     .set_demo(True)
     .set_features([

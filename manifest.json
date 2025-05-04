@@ -10,7 +10,7 @@
     "Receive a random image",
     "Receive a random video"
   ],
-  "icon": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
+  "icon": "https://talkops.app/images/extensions/playground-python.png",
   "name": "Playground Python",
   "sdk": {
     "name": "python",
