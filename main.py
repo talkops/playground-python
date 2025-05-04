@@ -1,6 +1,6 @@
 from talkops import Extension, Image, Video
 import asyncio
-import random
+import a random
 
 def enable_alarm():
     extension.enable_alarm()
@@ -45,34 +45,34 @@ extension = (
     .set_category('utility')
     .set_demo(True)
     .set_features([
-        'Enable alarm',
-        'Receive random dice',
-        'Receive random dice asynchronously',
-        'Receive random dice as message',
-        'Receive random dice as notification',
-        'Receive random image',
-        'Receive random video'
+        'Enable the alarm',
+        'Receive a random dice',
+        'Receive a random dice asynchronously',
+        'Receive a random dice as message',
+        'Receive a random dice as notification',
+        'Receive a random image',
+        'Receive a random video'
     ])
     .set_function_schemas([
         {
             "name": "enable_alarm",
-            "description": "Enable alarm."
+            "description": "Enable the alarm."
         },
         {
             "name": "receive_random_dice",
-            "description": "Receive random dice.",
+            "description": "Receive a random dice.",
         },
         {
             "name": "receive_random_dice_asynchronously",
-            "description": "Receive random dice asynchronously.",
+            "description": "Receive a random dice asynchronously.",
         },
         {
             "name": "receive_random_dice_message",
-            "description": "Receive random dice as message.",
+            "description": "Receive a random dice as message.",
         },
         {
             "name": "receive_random_dice_notification",
-            "description": "Receive random dice as notification.",
+            "description": "Receive a random dice as notification.",
         },
         {
             "name": "receive_random_image",
@@ -94,5 +94,3 @@ extension = (
     ])
     .start()
 )
-
-print('test')
