@@ -7,8 +7,10 @@ A TalkOps Extension made to work with [TalkOps](https://talkops.app).
 ## Features
 
 * Enable alarm
-* Receive random dice result as message
-* Receive random dice result as notification
+* Receive random dice
+* Receive random dice asynchronously
+* Receive random dice as message
+* Receive random dice as notification
 * Receive random image
 * Receive random video
 
