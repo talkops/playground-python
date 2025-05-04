@@ -1,6 +1,6 @@
 from talkops import Extension, Image, Video
 import asyncio
-import a random
+import random
 
 def enable_alarm():
     extension.enable_alarm()

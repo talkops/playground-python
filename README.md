@@ -6,13 +6,13 @@ A TalkOps Extension made to work with [TalkOps](https://talkops.app).
 
 ## Features
 
-* Enable alarm
-* Receive random dice
-* Receive random dice asynchronously
-* Receive random dice as message
-* Receive random dice as notification
-* Receive random image
-* Receive random video
+* Enable the alarm
+* Receive a random dice
+* Receive a random dice asynchronously
+* Receive a random dice as message
+* Receive a random dice as notification
+* Receive a random image
+* Receive a random video
 
 ## Installation
 
