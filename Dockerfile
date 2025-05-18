@@ -20,7 +20,7 @@ ENTRYPOINT [ "./entrypoint.sh" ]
 CMD ["pm2-runtime", "ecosystem.config.cjs"]
 
 FROM base
-COPY requirements.txt .
+COPY ecosystem.config.cjs requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY src src
 USER 1000:1000
