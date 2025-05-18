@@ -4,7 +4,7 @@ import random
 
 extension = (
   Extension()
-  .set_name('Playground Python')
+  .set_name('Python Playground')
   .set_icon('https://talkops.app/images/extensions/playground-python.png')
   .set_category('utility')
   .set_demo(True)
@@ -42,7 +42,7 @@ def receive_random_dice():
     return str(random.randint(1, 6))
 
 async def receive_random_dice_asynchronously():
-    await asyncio.sleep(2)
+    await asyncio.sleep(10)
     return str(random.randint(1, 6))
 
 def receive_random_dice_message():

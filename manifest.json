@@ -11,10 +11,10 @@
     "Receive a random video"
   ],
   "icon": "https://talkops.app/images/extensions/playground-python.png",
-  "name": "Playground Python",
+  "name": "Python Playground",
   "sdk": {
     "name": "python",
-    "version": "1.3.1"
+    "version": "1.3.3"
   },
   "softwareVersion": null,
   "website": null
