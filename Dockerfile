@@ -17,11 +17,11 @@ FROM base AS dev
 USER 1000:1000
 VOLUME [ "/app" ]
 ENTRYPOINT [ "./entrypoint.sh" ]
-CMD ["pm2-runtime", "ecosystem.config.cjs"]
+CMD ["pm2-runtime", "ecosystem.dev.config.cjs"]
 
-FROM base
-COPY ecosystem.config.cjs requirements.txt ./
+FROM base AS prod
+COPY ecosystem.prod.config.cjs requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY src src
 USER 1000:1000
-CMD ["pm2-runtime", "ecosystem.config.cjs"]
+CMD ["pm2-runtime", "ecosystem.prod.config.cjs"]
